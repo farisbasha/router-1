@@ -145,6 +145,7 @@ export {
   onBeforeRouteUpdate,
 } from './navigationGuards'
 export { RouterLink, useLink } from './RouterLink'
+export { getLinkActiveState as _getLinkActiveState } from './RouterLink'
 export type {
   _RouterLinkI,
   RouterLinkProps,
