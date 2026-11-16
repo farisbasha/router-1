@@ -36,6 +36,8 @@ export {
 } from './injectionSymbols'
 
 export { START_LOCATION_NORMALIZED as START_LOCATION } from './location'
+/** @internal no semver guarantee */
+export { stripBase as _stripBase } from './location'
 export type {
   _RouteLocationBase,
   _RouteRecordBase,
